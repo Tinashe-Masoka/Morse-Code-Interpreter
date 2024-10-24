@@ -3,7 +3,7 @@ This project is an implementation of a Morse Code interpreter using an Arduino, 
 
 Core Ideas Implemented:
 
-1.  Morse Code Input: Button presses are used to simulate Morse code. A short press is interpreted as a dot ('.'), and a long press as a dash \n ('-'). The code measures the duration of each button press to distinguish between dots and dashes.
+1.  Morse Code Input: Button presses are used to simulate Morse code. A short press is interpreted as a dot ('.'), and a long press as a dash #\n ('-'). The code measures the duration of each button press to distinguish between dots and dashes.
    
 2.  Binary Tree for Decoding: A binary tree structure is implemented to store Morse code characters. Each node in the tree represents a character, with left branches representing dots and right branches representing dashes. As the user inputs Morse code, the program traverses the tree to find and decode the corresponding character.
 
